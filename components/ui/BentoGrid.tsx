@@ -102,7 +102,7 @@ export const BentoGridItem = ({
                 </BackgroundGradientAnimation>
             )}
 
-          {/* <div className={cn(
+          <div className={cn(
                 titleClassName,'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'
           )}>
                 <div className="font-sans font-extralight text-[#c1c2d3] text-sm md:text-xs lg:text-base z-10 dark:text-neutral-300">
@@ -141,7 +141,7 @@ export const BentoGridItem = ({
                 </div>
             )}
 
-            {id === 6 && (
+            {/* {id === 6 && (
                 <div className="mt-5 relative">
                     <div className={`absolute -bottom-5 right-0`}>
                         <Lottie options={{
@@ -162,8 +162,8 @@ export const BentoGridItem = ({
                         handleClick={handleCopy}
                     />
                 </div>
-            )}
-          </div> */}
+            )} */}
+          </div>
         </div>
     </div>
   );
