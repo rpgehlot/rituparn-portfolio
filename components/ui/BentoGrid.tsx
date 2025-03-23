@@ -8,12 +8,7 @@ import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
-import dynamic from "next/dynamic";
 
-// const BackgroundGradientAnimationWithNoSSR = dynamic(
-//   () => import('./gradientAnimation'),
-//   { ssr: false }
-// )
 export const BentoGrid = ({
   className,
   children,
@@ -141,9 +136,9 @@ export const BentoGridItem = ({
                 </div>
             )}
 
-            {/* {id === 6 && (
+            {id === 6 && (
                 <div className="mt-5 relative">
-                    <div className={`absolute -bottom-5 right-0`}>
+                    {/* <div className={`absolute -bottom-5 right-0`}>
                         <Lottie options={{
                             loop : copied,
                             autoplay : copied,
@@ -152,7 +147,7 @@ export const BentoGridItem = ({
                                 preserveAspectRatio: 'xMidYMid slice'
                             }
                         }} />
-                    </div>
+                    </div> */}
 
                     <MagicButton 
                         title={copied ? 'Email copied' : 'copy my email'}
@@ -162,7 +157,7 @@ export const BentoGridItem = ({
                         handleClick={handleCopy}
                     />
                 </div>
-            )} */}
+            )}
           </div>
         </div>
     </div>
