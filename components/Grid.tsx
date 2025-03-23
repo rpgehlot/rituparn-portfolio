@@ -1,5 +1,5 @@
 import React from 'react'
-import { BentoGrid } from './ui/BentoGrid'
+import { BentoGrid, BentoGridItem } from './ui/BentoGrid'
 import { gridItems } from '@/data'
 
 const Grid = () => {
