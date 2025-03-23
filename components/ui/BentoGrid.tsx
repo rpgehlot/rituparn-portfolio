@@ -1,14 +1,19 @@
 'use client'
 
 import { cn } from "@/lib/utils";
-import { BackgroundGradientAnimation } from "./gradientAnimation";
+// import { BackgroundGradientAnimation } from "./gradientAnimation";
 import { GlobeDemo } from "./GridGlobe";
 import Lottie from "react-lottie";
 import { useState } from "react";
 import animationData from '@/data/confetti.json';
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
+import dynamic from "next/dynamic";
 
+const BackgroundGradientAnimationWithNoSSR = dynamic(
+  () => import('./gradientAnimation'),
+  { ssr: false }
+)
 export const BentoGrid = ({
   className,
   children,
@@ -92,9 +97,9 @@ export const BentoGridItem = ({
             </div>
 
             {id === 6 && (
-                <BackgroundGradientAnimation>
+                <BackgroundGradientAnimationWithNoSSR>
                     <div className="absolute z-50 flex items-center justify-center text-white font-bold" />
-                </BackgroundGradientAnimation>
+                </BackgroundGradientAnimationWithNoSSR>
             )}
 
             <div className={cn(
