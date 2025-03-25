@@ -93,3 +93,12 @@ body {
     transform: translate(calc(-50% - 0.5rem));
   }
 }
+
+@media (pointer: coarse) {
+  .is-touched .mobile-opacity-100 {
+    opacity: 1;
+  }
+  .is-touched .mobile-opacity-0 {
+    opacity: 0;
+  }
+}

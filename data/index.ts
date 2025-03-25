@@ -126,20 +126,20 @@ export const navItems = [
     {
       id: 1,
       name: "Turing",
-      img: "/cloud.svg",
-      nameImg: "/cloudName.svg",
+      img: "/turing-logo.svg",
+      nameImg: "/turing-name.svg",
     },
     {
       id: 2,
       name: "AlphaGrep",
-      img: "/app.svg",
-      nameImg: "/appName.svg",
+      img: "/alphagrep-icon.svg",
+      nameImg: "/alphagrep-name.svg",
     },
     {
       id: 3,
       name: "FlipSpaces",
-      img: "/host.svg",
-      nameImg: "/hostName.svg",
+      img: "/flipspaces-logo.png",
+      nameImg: "/flipspaces.svg",
     },
   ];
   
@@ -178,13 +178,16 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link : 'https://github.com/rpgehlot'
     },
     {
       id: 2,
       img: "/twit.svg",
+      link : 'https://x.com/RITUPARNGEHLOT'
     },
     {
       id: 3,
       img: "/link.svg",
+      link :'https://www.linkedin.com/in/rituparn-gehlot-47733252/'
     },
   ];

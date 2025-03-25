@@ -1,0 +1,9 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.0" viewBox="0 0 520 150" preserveAspectRatio="xMidYMid meet">
+  <text x="10" y="100" font-family="Arial" font-weight="bold" font-size="6em" fill="#2164a7">
+    Alpha
+  </text>
+  <text x="280" y="100" font-family="Arial" font-weight="bold" font-size="6em" fill="gray">
+    Grep
+  </text>
+</svg>
